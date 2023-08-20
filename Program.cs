@@ -2,7 +2,7 @@
 
 static string GetReadableTime(int seconds)
 {
-    string ReadableTime, HH, MM, SS = "00";
+    string ReadableTime, HH, MM, SS;
 
     if (seconds > 359999)
         return "Error";
